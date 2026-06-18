@@ -14,14 +14,14 @@ This site supports faculty participating in the Psychology AI Integration Pilot 
 
 Six sequential modules designed for a single session — about 75 to 90 minutes, including hands-on time. All modules are available now. Start here.
 
-[Start the Bootcamp →]({{ site.baseurl }}/bootcamp/)
+[Start the Bootcamp →](bootcamp/)
 
 ## Teaching & Assessment in the AI Era
 
 Deeper resources on assessment redesign, course AI policy, and working with AI in the classroom. Being developed across summer 2026. Not required before Fall — worth engaging before Spring.
 
-[Go to Teaching & Assessment →]({{ site.baseurl }}/teaching/)
+[Go to Teaching & Assessment →](teaching/)
 
 ---
 
-[AI Tools at a Glance]({{ site.baseurl }}/reference/ai-tools/) — quick-reference table of current tools, pricing, and faculty use cases. Updated June 2026.
+[AI Tools at a Glance](reference/ai-tools/) — quick-reference table of current tools, pricing, and faculty use cases. Updated June 2026.
