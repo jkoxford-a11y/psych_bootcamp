@@ -13,12 +13,12 @@ These pages are being developed across summer 2026. All are available as stubs n
 
 ## Pages in This Section
 
-- [Why Assessment Has to Change](/teaching/why-assessment-has-to-change/)
-- [Assessment Redesign](/teaching/assessment-redesign/)
-- [The Portfolio and Mastery Method](/teaching/portfolio-mastery-method/)
-- [Your Course AI Policy](/teaching/course-ai-policy/)
-- [Human-AI Cognitive Alignment](/teaching/human-ai-alignment/)
+- [Why Assessment Has to Change]({{ site.baseurl }}/teaching/why-assessment-has-to-change/)
+- [Assessment Redesign]({{ site.baseurl }}/teaching/assessment-redesign/)
+- [The Portfolio and Mastery Method]({{ site.baseurl }}/teaching/portfolio-mastery-method/)
+- [Your Course AI Policy]({{ site.baseurl }}/teaching/course-ai-policy/)
+- [Human-AI Cognitive Alignment]({{ site.baseurl }}/teaching/human-ai-alignment/)
 
 ---
 
-[← Back to home](/)
+[← Back to home]({{ site.baseurl }}/)

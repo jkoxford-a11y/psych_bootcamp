@@ -39,4 +39,4 @@ Model names, pricing, and features change frequently. If something here looks wr
 
 ---
 
-[← Back to home](/)
+[← Back to home]({{ site.baseurl }}/)
