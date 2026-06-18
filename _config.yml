@@ -1,0 +1,15 @@
+title: "AI Literacy — Psychology AI Integration Pilot"
+description: "Faculty resources for the Psychology AI Integration Pilot, Columbia College of Missouri"
+baseurl: "/psych_bootcamp"
+url: "https://jkoxford-a11y.github.io"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - BOOTCAMP_BUILD_PLAN.md
+  - CODE_START_PROMPT.md
+  - CONTENT_SOURCES.md
+  - Gemfile
+  - Gemfile.lock

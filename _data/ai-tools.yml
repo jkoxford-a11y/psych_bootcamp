@@ -1,0 +1,26 @@
+last_updated: "June 2026"
+
+tools:
+  - name: ChatGPT
+    provider: OpenAI
+    free_tier: "Yes — GPT-4o with usage limits"
+    paid_tier: "ChatGPT Plus, $20/month"
+    strengths: "Versatile, large user base, strong for general writing and analysis. Familiar to most students."
+
+  - name: Claude
+    provider: Anthropic
+    free_tier: "Yes — Claude Sonnet with usage limits"
+    paid_tier: "Claude Pro, $20/month"
+    strengths: "Strong for long documents and nuanced feedback. Tends to be more direct when pushed. Claude Projects provide persistent context across sessions."
+
+  - name: Gemini
+    provider: Google
+    free_tier: "Yes — Gemini 1.5 Flash"
+    paid_tier: "Google One AI Premium, $19.99/month"
+    strengths: "Integrated with Google Workspace (Docs, Gmail, Drive). Best option if your institution runs on Google."
+
+  - name: Microsoft Copilot
+    provider: Microsoft
+    free_tier: "Yes — available via Bing and Edge"
+    paid_tier: "Microsoft 365 Copilot (enterprise pricing, varies)"
+    strengths: "Integrated with Microsoft 365 (Word, Outlook, Teams). Many institutions already have access through existing Microsoft licenses."
