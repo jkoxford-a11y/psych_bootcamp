@@ -53,7 +53,7 @@ If you're using Claude directly (not through Boodlebox), Claude Projects serve t
 
 ### Use a Course Workspace for Ongoing Work
 
-The deeper fix: if you're constantly re-explaining your course, your assignment, or your expectations — that's a sign you need a workspace pre-loaded with that context. That way it's there from the first message of every chat. [See Module 4: Boodlebox](/bootcamp/04-boodlebox/)
+The deeper fix: if you're constantly re-explaining your course, your assignment, or your expectations — that's a sign you need a workspace pre-loaded with that context. That way it's there from the first message of every chat. [See Module 4: Boodlebox]({{ site.baseurl }}/bootcamp/04-boodlebox/)
 
 ## When AI Is Just Wrong (Not Degraded)
 
@@ -65,4 +65,4 @@ Context window issues explain *some* AI errors — but not all of them. AI can a
 - Ask it to explain its reasoning — errors often surface when the AI has to show its work
 - For anything that actually matters (a fact, a citation, a specific claim), verify it yourself
 
-AI sounds confident whether it's right or wrong. That tone is not a reliability signal. [See Module 5: Verifying What You Get Back](/bootcamp/05-verifying-output/)
+AI sounds confident whether it's right or wrong. That tone is not a reliability signal. [See Module 5: Verifying What You Get Back]({{ site.baseurl }}/bootcamp/05-verifying-output/)

@@ -43,7 +43,7 @@ If a response feels generic, off-target, or too long — don't start over. Just 
 - *"Too long. Give me the same answer in two sentences."*
 - *"You're assuming I have background in this. I don't. Start simpler."*
 
-The AI is not offended. Redirect it. You'll learn more about shaping prompts intentionally in [Module 3: Getting Useful, Honest Output](/bootcamp/03-useful-honest-output/).
+The AI is not offended. Redirect it. You'll learn more about shaping prompts intentionally in [Module 3: Getting Useful, Honest Output]({{ site.baseurl }}/bootcamp/03-useful-honest-output/).
 
 ## Your Tool for This Pilot
 

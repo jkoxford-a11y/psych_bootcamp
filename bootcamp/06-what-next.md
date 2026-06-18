@@ -19,7 +19,7 @@ That's it. You don't need to commit to anything else right now.
 
 ## What's Coming
 
-The second section of this site — [Teaching & Assessment in the AI Era](/teaching/) — covers the harder questions this bootcamp intentionally left aside: how to redesign assessments for an environment where AI can complete most traditional assignments, how to decide your own course AI policy, and the portfolio and mastery-check model being piloted this fall.
+The second section of this site — [Teaching & Assessment in the AI Era]({{ site.baseurl }}/teaching/) — covers the harder questions this bootcamp intentionally left aside: how to redesign assessments for an environment where AI can complete most traditional assignments, how to decide your own course AI policy, and the portfolio and mastery-check model being piloted this fall.
 
 Those pages are being developed across summer 2026. Not required reading before Fall. Worth engaging with before Spring.
 
