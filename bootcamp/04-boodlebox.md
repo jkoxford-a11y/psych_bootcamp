@@ -2,100 +2,107 @@
 layout: module
 title: "Module 4: Boodlebox — Building Your Course Workspace"
 permalink: /bootcamp/04-boodlebox/
-tldr: "Boodlebox is the institutional AI tool for this pilot. By the end of this module, you'll have a working bot loaded with your course materials. The instructions you write are the bot."
 prev_url: /bootcamp/03-useful-honest-output/
 prev_title: "Module 3: Getting Useful, Honest Output"
 next_url: /bootcamp/05-verifying-output/
 next_title: "Module 5: Verifying What You Get Back"
 ---
 
-# Module 4: Boodlebox — Building Your Course Workspace
+**TL;DR** Boodlebox is the institutional AI tool for this pilot. You'll build a bot loaded with your course materials during this session. The instructions you write are the bot — everything from Module 3 applies directly.
 
-> **Note for Jon:** This module is original writing based on the build plan spec. Review carefully before publishing — particularly Part 4 (sharing mechanic), which is flagged for verification below.
+---
 
-## Part 1: Why Boodlebox
+## Why Boodlebox
 
-Boodlebox is the AI platform for this pilot for two reasons: it's FERPA-compliant and designed for educational use, and it lets you pre-load course materials so context is always there.
+Two reasons. First, it's FERPA-compliant and built for educational use — appropriate for anything involving your course and your students. Second, you can pre-load it with your materials so the AI starts every conversation already knowing your course, your expectations, and your constraints.
 
-That second part matters more than it sounds. Every time you start a new chat with a general-purpose AI tool, you're starting from scratch — no knowledge of your course, your students, your expectations. In Boodlebox, you build a bot with your syllabus, your rubrics, and your instructions built in. Every conversation starts with your context already present. Your students don't have to paste in the syllabus. You don't have to re-explain what level you're teaching.
+That second part changes the experience significantly. General-purpose AI starts every new chat from zero — no knowledge of what you teach, how you assess, or what level your students are at. A Boodlebox bot has your syllabus, your rubrics, and your instructions built in before anyone asks it a single question. The underlying model is the same one you've been working with across Modules 1–3. The skills transfer directly.
 
-Everything you just learned about prompting and calibration in Modules 1–3 applies directly here.
+---
 
-## Part 2: Building Your Course Workspace Bot
+## Build your bot now
 
-You'll do this during the session. You'll need: access to Boodlebox (link from your bootcamp facilitator) and your syllabus, or any course document that describes what the course covers.
+You'll need access to Boodlebox and your syllabus, or any course document that describes what the course covers. This takes about five minutes.
+
+Read the two-bot demo below before you write your instructions — it'll make them better.
 
 {% capture do_it_now %}
-**Build your bot now** — syllabus in hand, about 5 minutes.
-
-1. Open Boodlebox and go to the **Bot Garage**
+1. Open Boodlebox → **Bot Garage**
 2. Select **Create a new bot**
-3. Name it: use format `[COURSE NUMBER] [PURPOSE]` — e.g., *PSYC 101 Study Coach*
-4. Write a one-sentence description of what this bot is for
-5. Write 3–5 lines of instructions (see Part 3 below for what good instructions look like)
-6. Upload your syllabus and one other document — a rubric, reading list, or assignment prompt
-7. Save and test before sharing
-
-We'll test it together before you share it with anyone.
+3. Name it: `[COURSE NUMBER] [PURPOSE]` — e.g., *PSYC 101 Study Coach*
+4. Write one sentence describing what this bot is for
+5. Write 3–5 lines of instructions
+6. Upload your syllabus and one other document — rubric, reading list, or assignment prompt
+7. Save — then test before sharing with anyone
 {% endcapture %}
 {% include callout-do-it-now.html content=do_it_now %}
 
-## Part 3: The Two-Bot Demo
+---
 
-The difference between a useful course bot and a generic one isn't the AI model — it's the instructions. Here's a live illustration.
+## The two-bot demo
+
+The difference between a useful bot and a generic one is the instructions. The AI model underneath is identical. Here's what that looks like.
 
 **Bot A — minimal instructions:**
-
 > You are a helpful assistant for PSYC 101.
 
 **Bot B — calibrated instructions:**
+> You are a study coach for PSYC 101 at Columbia College of Missouri. Your job is to help students understand material, not do their work for them. Never give a direct answer to a content question without first asking what the student already thinks. If a student is wrong, say so clearly and explain why — don't soften incorrect answers. Prioritize the course syllabus and uploaded materials over your general knowledge. If a student asks about exam policies, grades, or deadlines, direct them to the syllabus.
 
-> You are a study coach for PSYC 101 at Columbia College of Missouri. Your job is to help students understand material, not to do their work for them. Never give a direct answer to a content question without first asking the student what they already think. If a student is wrong, tell them clearly and explain why — do not soften incorrect answers with praise. Prioritize the course syllabus and uploaded materials over your general knowledge. If a student asks about exam policies, grades, or deadlines, direct them to the syllabus.
+**Question asked to both:** *"What do I need to know about memory for the exam?"*
 
-**Demo question asked to both:** *"What do I need to know about memory for the exam?"*
+Bot A returns a general overview of memory from its training data. Bot B asks what the student already knows and works from the course materials.
 
-Bot A produces a general memory overview drawn from its training data. Bot B asks what the student already knows and anchors its response to the course materials.
+Same model. Different instructions. The instructions are the bot.
 
-The difference is the instructions. The instructions are the bot.
+---
 
-This connects back to Module 3 — you're applying calibration and role-setting in a tool you can hand directly to students.
-
-### What Good Bot Instructions Include
+## What good instructions include
 
 - The bot's role and who it's for
 - What it should help with
-- What it should *not* do — especially: do not complete graded assignments for students
+- What it should *not* do — especially: do not complete graded assignments
 - Tone and level of detail
-- Any course-specific rules (exam policies, citation format, etc.)
+- Course-specific rules (policies, citation format, what to do when uncertain)
 
-**Template you can copy and modify:**
+A starting template:
 
-> You are a helpful AI learning assistant for students in [COURSE NAME]. Your role is to support learning, not replace student work. Help students understand concepts, ask guiding questions, and provide feedback. Do not complete graded assignments for students. When students ask for direct answers, guide them through the reasoning process instead. Use a supportive, clear, and professional tone appropriate for undergraduate students. Align your responses with the course materials and instructions provided. If you are unsure, say so and recommend that students consult the instructor or course materials.
+> You are a learning assistant for students in [COURSE NAME]. Your role is to support learning, not replace student work. Help students understand concepts, ask guiding questions, and give feedback. Do not complete graded assignments. When students ask for direct answers, guide them through the reasoning instead. Use a clear, professional tone appropriate for undergraduates. Prioritize course materials over general knowledge. If you're unsure, say so and recommend the student consult the instructor.
 
-## Part 4: Sharing with Students
+---
+
+## Sharing with students
+
+Post the direct bot link in your LMS — D2L, Canvas, wherever your students live. Tell them what it's for and what it can't do for them. That's the whole workflow.
+
+Name the bot with your course number so students can confirm they have the right one before they start. If you run multiple sections that need different bots, add the section number. Students can also favorite a bot (three-dot menu → Favorite) so it stays accessible in their sidebar.
+
+Suggested LMS language:
+
+> Use the course bot linked below to review concepts, ask questions, and prepare for assignments. It's designed to coach your thinking, not complete graded work. Confirm the bot name matches this course before you begin. You're responsible for checking its responses.
 
 <!-- TODO: verify Boodlebox folder+bot access flow before publishing -->
+> ⚠️ **Access method — verifying before launch.** The documentation describes both a direct bot link and a shared course folder for access. The exact workflow for the folder method is being confirmed with Boodlebox. This section will be updated before the bootcamp runs.
 
-The primary method for sharing your bot is to post the direct bot link in your LMS (D2L, Canvas, or whatever you use). Tell students what the bot is for and what it cannot do for them.
+---
 
-**Naming so students know they have the right one:** Include your course number in the bot name. If you have multiple sections, include the section number. Students can confirm they're in the right place before they start.
-
-Students can save a bot for easy access using the Favorites feature (three-dot menu → Favorite).
-
-**Suggested LMS language you can copy:**
-
-> Use the course bot linked below to help you review concepts, ask questions, and prepare for assignments. The bot is designed to coach your thinking, not complete graded work for you. Confirm the bot name matches this course before you begin. You are responsible for checking all information and following the course AI use policy.
-
-**Access method coming — verifying with Boodlebox before publishing.** The documentation describes two sharing methods (direct bot link and shared course folder) but the exact workflow for shared folder access is being confirmed. This section will be updated before launch.
-
-## Part 5: What Students Need to Know
+## What students need to know
 
 {% capture faculty_note %}
-**Tell students this before they use the bot:**
+Tell students this before they use the bot:
 
-- Use the link from your course page — don't search for bots manually
+- Access it from the link in your course page — don't search manually
 - Confirm the bot name matches your course before you start
-- The bot can make mistakes. You are responsible for checking its responses
-- The bot cannot complete graded work for you — that's by design
+- It can make mistakes — you're responsible for checking responses
+- It cannot complete graded work for you — that's intentional
 {% endcapture %}
 {% include callout-faculty-note.html content=faculty_note %}
+
+---
+
+## Key takeaways
+
+- Pre-loading course materials means neither you nor your students have to re-explain context every session
+- The instructions are the bot — a calibrated system prompt changes outputs dramatically, not slightly
+- Share via direct link posted in your LMS; include the course number in the bot name
+- Test before sharing — ask it the questions your students will actually ask

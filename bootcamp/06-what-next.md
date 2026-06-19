@@ -2,29 +2,38 @@
 layout: module
 title: "Module 6: What's Next"
 permalink: /bootcamp/06-what-next/
-tldr: "One concrete thing to do before you come back. And a preview of what this pilot is actually building toward."
 prev_url: /bootcamp/05-verifying-output/
 prev_title: "Module 5: Verifying What You Get Back"
 ---
 
-# Module 6: What's Next
+**TL;DR** The bootcamp was the floor. Literacy develops through use, not through more reading. Here's what to do with that.
 
-## One Thing to Try This Week
+---
 
-Use your new Boodlebox bot to answer one question a student actually asked you this week.
+## One thing to try this week
 
-Note three things afterward: whether the answer was accurate, whether you'd modify the bot's instructions based on how it responded, and what else you'd want to upload to it before the semester starts.
+Use your Boodlebox bot to answer one question a student actually asked you recently. Notice whether the response was accurate, whether you'd change the instructions, what you'd upload next. That iteration loop — use it, notice what's off, adjust — is how the tool gets useful.
 
-That's it. You don't need to commit to anything else right now.
+---
 
-## What's Coming
+## Where this goes
 
-The second section of this site — [Teaching & Assessment in the AI Era](../../teaching/) — covers the harder questions this bootcamp intentionally left aside: how to redesign assessments for an environment where AI can complete most traditional assignments, how to decide your own course AI policy, and the portfolio and mastery-check model being piloted this fall.
+The bootcamp covered the mechanics. The harder questions — how to redesign assessments, how to set a course AI policy, what to tell students — live in the Teaching & Assessment section. That content is being developed across summer 2026. It's not required reading before Fall. It's worth engaging before Spring.
 
-Those pages are being developed across summer 2026. Not required reading before Fall. Worth engaging with before Spring.
+[→ Teaching & Assessment in the AI Era](../../teaching/)
 
-## What the Pilot Is Actually For
+---
 
-This bootcamp was the floor, not the ceiling. What you'll actually develop — a working sense of what AI does well and badly in your specific discipline, with your specific students — comes through using these tools in context, not through more reading.
+## What the pilot is actually for
 
-The pilot is designed for exactly that. You're not expected to be experts before you start. You're expected to start.
+You're not expected to be experts before Fall. The pilot is designed around the assumption that you'll develop fluency through teaching with these tools, not before you do. What you built today — a bot with your course materials, a working mental model of how AI behaves — is enough to start.
+
+The point of starting is to have something real to reflect on by December.
+
+---
+
+## Key takeaways
+
+- Use the bot this week on something real — iteration is how it gets useful
+- Assessment redesign and course AI policy are summer reading, not prerequisites for Fall
+- Fluency comes from use — the pilot is structured around that, not against it

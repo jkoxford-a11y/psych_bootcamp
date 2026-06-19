@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "AI Literacy — Psychology AI Integration Pilot"
 permalink: /
 ---
 

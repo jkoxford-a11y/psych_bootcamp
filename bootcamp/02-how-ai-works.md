@@ -2,67 +2,58 @@
 layout: module
 title: "Module 2: How AI Actually Works (Enough to Matter)"
 permalink: /bootcamp/02-how-ai-works/
-tldr: "AI doesn't have unlimited memory. Long conversations degrade. Knowing why — and what to do about it — saves you a lot of frustration."
 prev_url: /bootcamp/01-getting-started/
 prev_title: "Module 1: Getting Started"
 next_url: /bootcamp/03-useful-honest-output/
 next_title: "Module 3: Getting Useful, Honest Output"
 ---
 
-# Module 2: How AI Actually Works (Enough to Matter)
+**TL;DR** AI has working memory, not unlimited memory. Long chats degrade. A few habits make this a non-issue.
 
-## What Is a Context Window?
+---
 
-Think of a context window as the AI's working memory. It can only "see" what's in the current conversation. Everything outside that window — previous chats, things you told it last week, work from a different session — does not exist to it.
+## What a context window actually is
 
-That window has a size limit, measured in **tokens**. A token is roughly a word. Every message you send, and every response you receive, uses tokens from that budget. When the budget runs low, performance degrades — the AI starts losing track of earlier parts of the conversation.
+Every AI conversation runs inside a context window — the full text of everything said so far, your messages and the AI's responses combined. The AI can only see what's in that window. Previous conversations, work from a different chat, things you told it last week — none of that exists to it.
 
-**The practical version:** Long chats tend to go worse than short ones. That's not random.
+The window has a size limit measured in tokens (roughly: words). As it fills up, performance degrades. Earlier instructions get forgotten. The AI starts contradicting itself or giving vaguer answers than it was giving an hour ago.
 
-## Why AI Makes Mistakes in Long Conversations
+This isn't the AI getting confused about your topic. It's losing access to the beginning of its own context.
 
-As a conversation gets longer, a few things tend to happen:
+**The tell:** A conversation that was working suddenly feels off — vague, inconsistent, like it forgot what you were doing. That's the limit.
 
-- The AI starts forgetting constraints or instructions you set early on
-- It contradicts things it said earlier
-- Answers get vaguer or less accurate
-- It may drift away from the specific task you established
+---
 
-When this happens, it's tempting to assume the AI is just bad at the topic. Usually the real cause is a full or nearly-full context window. It's not getting dumber — it's losing the thread.
+## What to do about it
 
-**Symptom to watch for:** If the AI's answers suddenly feel off, inconsistent, or like it forgot what you were doing — that's the signal.
+**Start fresh.** Close the chat and open a new one. Don't try to rehabilitate a degraded conversation. A new window is a new start.
 
-## What To Do About It
-
-### Start Fresh When Things Go Sideways
-
-The simplest fix is also the most counterintuitive: stop, open a new chat, and start over. Don't keep pushing a degraded conversation hoping it improves. A fresh context window means a fresh slate — and usually better answers.
-
-### Save Your Context Before You Do
-
-Before you close a long chat, ask the AI to package up what you accomplished:
+**Before you do, capture your state.** Paste this before closing any long chat you want to continue:
 
 > *"Summarize this conversation: what we were working on, decisions we made, and where we left off. Make it detailed enough that I can paste it into a new chat and pick up without losing anything."*
 
-Then paste that summary at the start of your next chat. You've effectively transferred the session.
+Paste the summary at the top of your next chat. Session transferred.
+
+**For ongoing work, pre-load your context.** If you find yourself re-explaining your course, your assignment, or your expectations at the start of every new chat — that's the problem Module 4 solves. [→ Boodlebox](../04-boodlebox/)
 
 {% capture faculty_note %}
-If you're using Claude directly (not through Boodlebox), Claude Projects serve the same function as a persistent workspace — custom instructions and uploaded materials that carry across every chat in that project. You set it up once and the context is there from the first message of every session.
+Using Claude directly rather than through Boodlebox? Claude Projects work the same way — custom instructions and uploaded documents that carry across every chat in that project. Set it up once; it's there from the first message every time.
 {% endcapture %}
 {% include callout-faculty-note.html content=faculty_note %}
 
-### Use a Course Workspace for Ongoing Work
+---
 
-The deeper fix: if you're constantly re-explaining your course, your assignment, or your expectations — that's a sign you need a workspace pre-loaded with that context. That way it's there from the first message of every chat. [See Module 4: Boodlebox](../04-boodlebox/)
+## When it's wrong, not degraded
 
-## When AI Is Just Wrong (Not Degraded)
+Context limits explain some AI errors. Not all of them. AI can be flatly wrong even in a fresh conversation with plenty of window left.
 
-Context window issues explain *some* AI errors — but not all of them. AI can also simply be wrong, even in a fresh chat at the start of a conversation.
+Push back when something seems off — AI will often self-correct when challenged. Ask it to show its reasoning. For anything that actually matters — a citation, a statistic, a claim you're about to put in writing — verify it yourself. The confident tone is not a reliability signal. [→ Module 5](../05-verifying-output/)
 
-**What to do:**
+---
 
-- Push back directly: *"I think that might be incorrect — can you double-check?"* AI will often self-correct when challenged
-- Ask it to explain its reasoning — errors often surface when the AI has to show its work
-- For anything that actually matters (a fact, a citation, a specific claim), verify it yourself
+## Key takeaways
 
-AI sounds confident whether it's right or wrong. That tone is not a reliability signal. [See Module 5: Verifying What You Get Back](../05-verifying-output/)
+- AI can only see the current conversation — nothing from previous sessions exists to it
+- Long chats degrade; when output starts feeling off, open a new chat rather than pushing through
+- Capture your state before closing a long session so you can resume without losing progress
+- Confident and fluent doesn't mean correct — wrong answers sound exactly like right ones
