@@ -36,10 +36,6 @@ Paste the summary at the top of your next chat. Session transferred.
 
 **For ongoing work, pre-load your context.** If you find yourself re-explaining your course, your assignment, or your expectations at the start of every new chat — that's the problem Module 4 solves. [→ Boodlebox](../04-boodlebox/)
 
-{% capture faculty_note %}
-Using Claude directly rather than through Boodlebox? Claude Projects work the same way — custom instructions and uploaded documents that carry across every chat in that project. Set it up once; it's there from the first message every time.
-{% endcapture %}
-{% include callout-faculty-note.html content=faculty_note %}
 
 ---
 
