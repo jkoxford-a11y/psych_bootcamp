@@ -14,9 +14,9 @@ next_title: "Module 3: Getting Useful, Honest Output"
 
 ## What a context window actually is
 
-Every AI conversation runs inside a context window — the full text of everything said so far, your messages and the AI's responses combined. The AI can only see what's in that window. Previous conversations, work from a different chat, things you told it last week — none of that exists to it.
+Every AI conversation runs inside a context window — the full text of everything in that chat. As that chatlog gets longer, context gets convoluted and errors occur. 
 
-The window has a size limit measured in tokens (roughly: words). As it fills up, performance degrades. Earlier instructions get forgotten. The AI starts contradicting itself or giving vaguer answers than it was giving an hour ago.
+The window has a size measured in tokens (roughly: words). As it fills up, performance degrades. Earlier instructions get forgotten. The AI starts contradicting itself or giving vaguer answers than it was giving an hour ago.
 
 This isn't the AI getting confused about your topic. It's losing access to the beginning of its own context.
 
@@ -36,6 +36,7 @@ Paste the summary at the top of your next chat. Session transferred.
 
 **For ongoing work, pre-load your context.** If you find yourself re-explaining your course, your assignment, or your expectations at the start of every new chat — that's the problem Module 4 solves. [→ Boodlebox](../04-boodlebox/)
 
+To pre-load your context, we will create a faculty-facing custom bot pre-loaded with the context for each class. Something like pasting your summary to start a new chat, but with built-in context each chat starts in the same place. Prompt engineering is less important. 
 
 ---
 

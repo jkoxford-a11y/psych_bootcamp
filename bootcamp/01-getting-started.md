@@ -56,11 +56,6 @@ Module 3 covers this in more depth — including how to stop AI from just agreei
 
 Boodlebox is your primary tool. Everything here applies directly — the underlying model is the same one you'll use throughout.
 
-{% capture faculty_note %}
-Already using ChatGPT or Claude personally? Keep doing that. Boodlebox matters specifically for what you deploy to students — FERPA-compliant, pre-loadable with your course materials. Your personal AI habits don't need to change.
-{% endcapture %}
-{% include callout-faculty-note.html content=faculty_note %}
-
 ---
 
 ## Key takeaways
@@ -68,3 +63,5 @@ Already using ChatGPT or Claude personally? Keep doing that. Boodlebox matters s
 - Start with something real and low-stakes — literacy comes from use, not preparation
 - You can redirect a bad response in the same conversation rather than starting over
 - Boodlebox for students; whatever you prefer personally
+
+

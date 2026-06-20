@@ -11,7 +11,7 @@ This site supports faculty participating in the Psychology AI Integration Pilot 
 
 ## Bootcamp
 
-Six sequential modules designed for a single session — about 75 to 90 minutes, including hands-on time. All modules are available now. Start here.
+Six sequential modules designed for a single session, including hands-on time. All modules are available now. Start here.
 
 [Start the Bootcamp →](bootcamp/)
 
@@ -23,4 +23,4 @@ Deeper resources on assessment redesign, course AI policy, and working with AI i
 
 ---
 
-[AI Tools at a Glance](reference/ai-tools/) — quick-reference table of current tools, pricing, and faculty use cases. Updated June 2026.
+
