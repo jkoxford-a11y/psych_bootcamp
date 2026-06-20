@@ -21,7 +21,7 @@ You don't need to come in as an expert. By the end of the session, you'll have a
 | 3 | [Getting Useful, Honest Output](03-useful-honest-output/)
 | 4 | [Boodlebox: Building Your Course Workspace](04-boodlebox/)
 | 5 | [Verifying What You Get Back](05-verifying-output/)
-| 6 | [What's Next](06-what-next/) | ~5 min |
+| 6 | [What's Next](06-what-next/
 
 ---
 
