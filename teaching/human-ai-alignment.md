@@ -10,6 +10,11 @@ permalink: /teaching/human-ai-alignment/
 
 <div class="tldr"><strong>Core idea:</strong> AI can only work with the context it receives. Better context produces better output.</div>
 
+<figure class="hero-figure">
+  <img src="{{ site.baseurl }}/assets/images/human-ai-cognitive-alignment.png" alt="Infographic showing human mental context being translated into prompt context, AI producing better output, and a feedback loop for review, revision, and trying again.">
+  <figcaption>Human-AI cognitive alignment: convert rich mental context into usable prompt context, review the output, revise, and try again.</figcaption>
+</figure>
+
 ---
 
 ## The core idea
