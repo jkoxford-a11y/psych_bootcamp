@@ -63,7 +63,7 @@ The difference is context.
 </figure>
 
 <figure style="margin:1.5rem 0;">
-  <img src="{{ site.baseurl }}/assets/images/Simpler%20psychology.png" alt="A simpler whiteboard-style image showing complex writing becoming simpler forms, based only on the raw prompt." style="display:block; width:100%; height:auto; border:1px solid #ddd; border-radius:10px; background:#fff;">
+  <img src="{{ site.baseurl }}/assets/images/SImpler%20psychology.png" alt="A simpler whiteboard-style image showing complex writing becoming simpler forms, based only on the raw prompt." style="display:block; width:100%; height:auto; border:1px solid #ddd; border-radius:10px; background:#fff;">
   <figcaption><strong>Without context:</strong> the AI understood the surface request — complex writing becoming simpler — but not the larger conceptual purpose.</figcaption>
 </figure>
 
