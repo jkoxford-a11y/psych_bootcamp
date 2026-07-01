@@ -51,21 +51,21 @@ Do not change topics inside the same chat unless the topics are closely related.
 
 ## Same prompt, different context
 
-Both images below come from the same basic request: a whiteboard-style image showing complex ideas compressing into simpler forms.
+Both images below came from the same prompt:
+
+> “I am imaging a image something like this one, but all the text/writing in the distance is compressing into simpler forms. Just like longterm declarative memories are compressed into sematic memories. Episodes become soemthing that we remember for their utility, what it meant. Does that make sense ask questions.”
 
 The difference is context.
 
-<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1.25rem; align-items:start; margin:1.25rem 0;">
-  <figure style="margin:0;">
-    <img src="{{ site.baseurl }}/assets/images/context-whiteboard-without-context.svg" alt="A generic whiteboard-style image with vague diagrams, scribbles, and simplified marks, showing the surface idea of complex writing becoming simpler." style="width:100%; height:auto; border:1px solid #ddd; border-radius:10px; background:#fff;">
-    <figcaption><strong>Without context:</strong> plausible whiteboard aesthetic, but the idea stays generic.</figcaption>
-  </figure>
+<figure style="margin:1.5rem 0;">
+  <img src="{{ site.baseurl }}/images/all%20of%20psychology.png" alt="A whiteboard-style image showing psychology as a broad conceptual system where lived experience becomes compressed into usable meaning and adaptive action." style="display:block; width:100%; height:auto; border:1px solid #ddd; border-radius:10px; background:#fff;">
+  <figcaption><strong>With context:</strong> the AI had the broader project context, so the same prompt became a psychology image: experience → meaning → action.</figcaption>
+</figure>
 
-  <figure style="margin:0;">
-    <img src="{{ site.baseurl }}/assets/images/context-whiteboard-with-context.svg" alt="A structured psychology whiteboard infographic showing lived experience, attention, memory, semantic knowledge, adaptive action, and a feedback loop." style="width:100%; height:auto; border:1px solid #ddd; border-radius:10px; background:#fff;">
-    <figcaption><strong>With context:</strong> the same request becomes a psychology model: experience → semantic knowledge → adaptive action.</figcaption>
-  </figure>
-</div>
+<figure style="margin:1.5rem 0;">
+  <img src="{{ site.baseurl }}/images/Simpler%20psychology.png" alt="A simpler whiteboard-style image showing complex writing becoming simpler forms, based only on the raw prompt." style="display:block; width:100%; height:auto; border:1px solid #ddd; border-radius:10px; background:#fff;">
+  <figcaption><strong>Without context:</strong> the AI understood the surface request — complex writing becoming simpler — but not the larger conceptual purpose.</figcaption>
+</figure>
 
 Context does not just add detail. It changes what the AI thinks the task is.
 
