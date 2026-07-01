@@ -58,12 +58,12 @@ Both images below came from the same prompt:
 The difference is context.
 
 <figure style="margin:1.5rem 0;">
-  <img src="{{ site.baseurl }}/images/all%20of%20psychology.png" alt="A whiteboard-style image showing psychology as a broad conceptual system where lived experience becomes compressed into usable meaning and adaptive action." style="display:block; width:100%; height:auto; border:1px solid #ddd; border-radius:10px; background:#fff;">
+  <img src="{{ site.baseurl }}/assets/images/All%20of%20Psychology.png" alt="A whiteboard-style image showing psychology as a broad conceptual system where lived experience becomes compressed into usable meaning and adaptive action." style="display:block; width:100%; height:auto; border:1px solid #ddd; border-radius:10px; background:#fff;">
   <figcaption><strong>With context:</strong> the AI had the broader project context, so the same prompt became a psychology image: experience → meaning → action.</figcaption>
 </figure>
 
 <figure style="margin:1.5rem 0;">
-  <img src="{{ site.baseurl }}/images/Simpler%20psychology.png" alt="A simpler whiteboard-style image showing complex writing becoming simpler forms, based only on the raw prompt." style="display:block; width:100%; height:auto; border:1px solid #ddd; border-radius:10px; background:#fff;">
+  <img src="{{ site.baseurl }}/assets/images/Simpler%20psychology.png" alt="A simpler whiteboard-style image showing complex writing becoming simpler forms, based only on the raw prompt." style="display:block; width:100%; height:auto; border:1px solid #ddd; border-radius:10px; background:#fff;">
   <figcaption><strong>Without context:</strong> the AI understood the surface request — complex writing becoming simpler — but not the larger conceptual purpose.</figcaption>
 </figure>
 
